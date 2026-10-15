@@ -19,54 +19,54 @@ class Ui_GraphPanelBase
     @gridLayout.set_contents_margins(9,9,9,9) #margin = 9
 
     #@gridLayout.object_name = 'gridLayout'
-    #@gridLayout.set_object_name = 'gridLayout'
+    @gridLayout.set_object_name('gridLayout')
     @textLabel1 = QLabel.new(graphPanelBase)
     #@textLabel1.object_name = 'textLabel1'
 
     @gridLayout.add_widget(@textLabel1, 0, 0, 1, 1)
 
     @ymax = QLineEdit.new(graphPanelBase)
-    #@ymax.object_name = 'ymax'
+    @ymax.set_object_name 'ymax'
 
     @gridLayout.add_widget(@ymax, 2, 2, 1, 1)
 
     @ymin = QLineEdit.new(graphPanelBase)
-    #@ymin.object_name = 'ymin'
+    @ymin.set_object_name('ymin')
 
     @gridLayout.add_widget(@ymin, 2, 1, 1, 1)
 
     @xmin = QLineEdit.new(graphPanelBase)
-    #@xmin.object_name = 'xmin'
+    @xmin.set_object_name('xmin')
 
     @gridLayout.add_widget(@xmin, 1, 1, 1, 1)
 
     @xmax = QLineEdit.new(graphPanelBase)
-    #@xmax.object_name = 'xmax'
+    @xmax.set_object_name('xmax')
 
     @gridLayout.add_widget(@xmax, 1, 2, 1, 1)
 
     @pb_draw = QPushButton.new(graphPanelBase)
-    #@pb_draw.object_name = 'pb_draw'
+    @pb_draw.set_object_name('pb_draw')
 
     @gridLayout.add_widget(@pb_draw, 3, 0, 1, 2)
 
     @textLabel3 = QLabel.new(graphPanelBase)
-    #@textLabel3.object_name = 'textLabel3'
+    @textLabel3.set_object_name('textLabel3')
 
     @gridLayout.add_widget(@textLabel3, 2, 0, 1, 1)
 
     @pb_close = QPushButton.new(graphPanelBase)
-    #@pb_close.object_name = 'pb_close'
+    @pb_close.set_object_name('pb_close')
 
     @gridLayout.add_widget(@pb_close, 3, 2, 1, 1)
 
     @textLabel2 = QLabel.new(graphPanelBase)
-    #@textLabel2.object_name = 'textLabel2'
+    @textLabel2.set_object_name('textLabel2')
 
     @gridLayout.add_widget(@textLabel2, 1, 0, 1, 1)
 
     @le_func = QLineEdit.new(graphPanelBase)
-    #@le_func.object_name = 'le_func'
+    @le_func.set_object_name('le_func')
 
     @gridLayout.add_widget(@le_func, 0, 1, 1, 2)
 
@@ -84,6 +84,8 @@ class Ui_GraphPanelBase
 
   def retranslateUi(graphPanelBase)
     #graphPanelBase.windowTitle = 'Graph Settings' #QApplication.translate('GraphPanelBase', 'Graph Settings', nil,
+    graphPanelBase.set_window_title('Graph Settings') #QApplication.translate('GraphPanelBase', 'Graph Settings', nil,
+
     #QApplication::UnicodeUTF8)
 
     @textLabel1.set_text("y=")  #Qt::Application.translate('GraphPanelBase', 'y=', nil, Qt::Application::UnicodeUTF8)

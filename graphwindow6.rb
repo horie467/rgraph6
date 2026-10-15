@@ -9,19 +9,19 @@ class Ui_GraphWindowBase
   attr_reader :gridLayout, :graph, :pb_close, :spacerItem
 
   def setupUi(graphWindowBase,panelWindowBase)
-    graphWindowBase.object_name = 'graphWindowBase' if graphWindowBase.object_name.nil?
+    graphWindowBase.set_object_name('graphWindowBase')  if graphWindowBase.object_name.nil?
     graphWindowBase.resize(490, 428)
     @gridLayout = QGridLayout.new(graphWindowBase)
     @gridLayout.set_spacing(6) #= 6
     @gridLayout.set_contents_margins(9,9,9,9) #margin = 9
-    #@gridLayout.object_name = 'gridLayout'
+    @gridLayout.set_object_name('gridLayout')
     @graph = QLabel.new(graphWindowBase)
-    #@graph.name = 'graph'
+    @graph.set_object_name('graph')
 
     @gridLayout.add_widget(@graph, 0, 0, 1, 2)
 
     @pb_close = QPushButton.new("Close",graphWindowBase)
-    #@pb_close.object_name = 'pb_close'
+    @pb_close.set_object_name('pb_close')
 
     @gridLayout.add_widget(@pb_close, 1, 1, 1, 1)
 
@@ -42,11 +42,11 @@ class Ui_GraphWindowBase
   end
 
   def retranslateUi(graphWindowBase)
-    #    graphWindowBase.window_title = 'Graph Window'
+    graphWindowBase.set_window_title('Graph Window')
     #QApplication.translate('GraphWindowBase', 'Graph Window', nil,
     #                                                       QApplication::UnicodeUTF8)
-    #@graph.text = "" #QApplication.translate('GraphWindowBase', 'TextLabel', nil, QApplication::UnicodeUTF8)
-    #@pb_close.text = "Close" #QApplication.translate('GraphWindowBase', 'Close', nil, QApplication::UnicodeUTF8)
+    @graph.set_text("") # = "" #QApplication.translate('GraphWindowBase', 'TextLabel', nil, QApplication::UnicodeUTF8)
+    @pb_close.set_text("Close")  #QApplication.translate('GraphWindowBase', 'Close', nil, QApplication::UnicodeUTF8)
   end # retranslateUi
 
   def retranslate_ui(graphWindowBase)

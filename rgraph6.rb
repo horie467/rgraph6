@@ -23,7 +23,6 @@ class GraphPanel < Ui_GraphPanelBase
   # slots 'draw_graph()'
   def initialize(w)
     @graphPanelWidget = w
-    @graphPanelWidget.set_window_title("Graph Settings")
     super()
     setupUi(w)
     @graph_data = GraphData.new
@@ -76,7 +75,6 @@ class GraphWindow < Ui_GraphWindowBase
     super()
     setupUi(w,p)
     @graphWindowWidget = w
-    @graphWindowWidget.set_window_title("Graph Window")
     @panelWindowWidget = p
     @gdata = gdata
     # @graphWindowWidget.resize(400,400)
