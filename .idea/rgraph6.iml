@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="ModuleRunConfigurationManager">
+    <shared />
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/features" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+    </content>
+    <orderEntry type="jdk" jdkName="rbenv: 3.4.11" jdkType="RUBY_SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-qt6 (v6.3.0, rbenv: 3.4.11) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-qt6-qtcore (v6.3.0, rbenv: 3.4.11) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-qt6-qtdbus (v6.3.0, rbenv: 3.4.11) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-qt6-qtgui (v6.3.0, rbenv: 3.4.11) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-qt6-qtmultimedia (v6.3.0, rbenv: 3.4.11) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-qt6-qtmultimediawidgets (v6.3.0, rbenv: 3.4.11) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-qt6-qtnetwork (v6.3.0, rbenv: 3.4.11) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-qt6-qtprintsupport (v6.3.0, rbenv: 3.4.11) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-qt6-qtqml (v6.3.0, rbenv: 3.4.11) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-qt6-qtquick (v6.3.0, rbenv: 3.4.11) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-qt6-qtquickcontrols2 (v6.3.0, rbenv: 3.4.11) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-qt6-qtquickwidgets (v6.3.0, rbenv: 3.4.11) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-qt6-qttest (v6.3.0, rbenv: 3.4.11) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-qt6-qtuitools (v6.3.0, rbenv: 3.4.11) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-qt6-qtwebenginecore (v6.3.0, rbenv: 3.4.11) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-qt6-qtwebenginewidgets (v6.3.0, rbenv: 3.4.11) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-qt6-qtwebview (v6.3.0, rbenv: 3.4.11) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-qt6-qtwidgets (v6.3.0, rbenv: 3.4.11) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby-qt6-rice (v6.3.0, rbenv: 3.4.11) [gem]" level="application" />
+  </component>
+</module>
