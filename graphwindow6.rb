@@ -38,7 +38,6 @@ class GraphWindow < RubyQt6::Bando::QWidget
     @logical_w = @graph_res + (@margin_x * 2) + @margin_left
     @logical_h = @graph_res + (@margin_y * 2)
 
-    #setGraphWindow(@ui)
   end
 
   def resize_event(_e)

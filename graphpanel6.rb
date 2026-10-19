@@ -23,7 +23,7 @@ class GraphPanel < RubyQt6::Bando::QWidget
     @ui.le_func.set_text(@graph_data.func_y.to_s)
 
     @ui.pb_draw.clicked.connect(self,:draw_graph)
-    #setGraphPanel(@ui)
+
   end
 
   def draw_graph
