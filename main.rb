@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 # for ruby-qt6 (Qt 6.11.2)
+# update GraphPanel, GraphWindow Class
 $LOAD_PATH.unshift File.dirname(__FILE__)
 
 require 'qt6/all'
